@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const modalTimer = setInterval(() => showModal('.modal', modalTimer), 50000);
 
     tabs('.tabheader__item', '.tabcontent', '.tabheader__items');
-    timer('.timer', '2022-02-20');
+    timer('.timer', '2022-08-20');
     modal('[data-modal]', '.modal', modalTimer);
     form(modalTimer);
     card();
